@@ -1,3 +1,18 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
 h2{
-    color: aqua;
+    color:yellow; 
+    font-style:italic ;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-align: justify;
+}
+#heading{
+    background-color: cadetblue;
+    height: 150px;
+    width: 120px;
+    padding: 80px;
 }

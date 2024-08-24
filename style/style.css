@@ -19,7 +19,8 @@ h2{
     background-position: center;
     background-color: cadetblue;
     height: 100px;
-    max-width: 400px;
+    /* max-width: 400px; */
+    width: 60%;
     padding: 100px;
     margin: 40px auto;
     /* clip-path: polygon(26% 0, 75% 0%, 100% 29%, 60% 100%, 33% 100%, 0 29%);  */

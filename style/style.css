@@ -1,18 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
 *{ 
     margin: 0;
     padding: 0;
 }
 h2{
-    color:yellow; 
+    font-family: "Dancing Script", cursive;
+    color:rgb(21, 107, 165); 
     font-style:italic ;
     font-weight: lighter;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     text-decoration: underline;
-    text-align: justify;
+    /* text-align: justify; */
 }
 #heading{
+    background-image: linear-gradient(60deg,crimson, transparent), 
+    url("../asset/code.jpg");
+    background-size: cover;
+    background-position: center;
     background-color: cadetblue;
-    height: 150px;
-    width: 120px;
-    padding: 80px;
+    height: 100px;
+    max-width: 400px;
+    padding: 100px;
+    margin: 40px auto;
+    /* clip-path: polygon(26% 0, 75% 0%, 100% 29%, 60% 100%, 33% 100%, 0 29%);  */
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+.btn-parent{
+    text-align: center;
+    /* padding: 130px; */
+    /* background-color: aqua; */
+}
+.btn{
+    font-family: "Bebas Neue", sans-serif;
+    background-color:azure;
+    padding: 10px;
+    border:white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 80px;
+    height: 60px;
+    margin: 30px 20px;
+    
 }
